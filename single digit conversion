@@ -3,8 +3,10 @@
 using namespace std;
 int main() {
     int n;
+cout<<"enter the number";
     cin>>n;
-    while(n>9){
+//taking the value of n//
+    while(n>9){ //while loop
         if(n%2==0){
             n = floor((n-2)/2);
         }
@@ -12,6 +14,7 @@ int main() {
             n= floor(n/2);
         }
     }
+    cout<<"the single digit value is";
     cout<<n;
     
 
